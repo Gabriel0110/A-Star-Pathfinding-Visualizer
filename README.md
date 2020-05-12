@@ -19,4 +19,7 @@ You can add diagonal pathing by replacing 'delta' and 'delta_name' with the belo
 ### REQUIRED LIBRARIES:
 - arcade  
 - pyautogui
-- numpy
+- numpy  
+  
+### Demo  
+![](/a_star_visualizer_gif.gif)  
