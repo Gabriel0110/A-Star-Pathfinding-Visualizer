@@ -57,7 +57,7 @@ class ExitButton(TextButton):
     def on_press(self):
         pass
 
-class MyGame(arcade.Window):
+class Visualizer(arcade.Window):
 
     def __init__(self, width, height, title):
         global start, goal
@@ -300,7 +300,7 @@ class MyGame(arcade.Window):
 
 def main():
     global window
-    window = MyGame(SCREEN_WIDTH, SCREEN_HEIGHT, SCREEN_TITLE)
+    window = Visualizer(SCREEN_WIDTH, SCREEN_HEIGHT, SCREEN_TITLE)
     arcade.run()
 
 if __name__ == "__main__":
