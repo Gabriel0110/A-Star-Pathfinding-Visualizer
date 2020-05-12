@@ -107,7 +107,10 @@ class Visualizer(arcade.Window):
         # self.button_list.append(ExitButton(self, SCREEN_WIDTH*0.75, SCREEN_HEIGHT*0.075, 300, 40, "Reset Bars", theme=self.theme))
 
     def setup(self):
-        global start, goal
+        global start, goal, failed
+        
+        failed = False
+        
         self.grid = [[0 for col in range(COLUMN_COUNT)] for row in range(ROW_COUNT)]
 
         for i in range(175):
