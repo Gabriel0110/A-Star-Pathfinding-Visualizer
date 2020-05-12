@@ -1,6 +1,5 @@
 import arcade
 from arcade.gui import *
-import numpy as np
 import random
 import time
 import pyautogui as pag
